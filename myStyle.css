@@ -3,19 +3,47 @@
     /*overflow-x: hidden;*/
     margin: 0px;
     padding: 0px;
+    background-color: rgb(251 , 227 ,167)
+}
+
+.head{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index:10;
+    background-color: dimgray;
+    font-family:Oswald; 
+    font-weight: bold;
+    color: white;
+    /*font-size: 30px;*/
+/*padding-left: 5%;*/
+}
+
+.headImg{
+    width: 100%;
+}
+h3{
+    margin-top :-10%;
+    margin-right: -10%;
+    padding:30px;
+    width: 70px;
+    float: left;
+    background-color: red;
+
 }
 
 h1{
     float: right;
-     font-size: 300%;
+     font-size: 200%;
     direction: rtl;
     background-color: rgb(100, 150, 100) ;
-    margin: 30px;
+    /*margin: 30px;*/
     padding: 20px;
+    margin: 20px;
     width: 100%;
 
     border: 5px solid #444 ;
-    border-width: 0.5em 0 0.5em 0;
+    border-width: 0.2em 0 0.2em 0;
 
 
 }
@@ -35,9 +63,9 @@ h1{
     width: 20%;
     height: 20%;
     /*padding: 10px;*/
-    border: 5px solid rgb(0, 0, 128);
+   /* border: 5px solid rgb(0, 0, 128);
     border-bottom-color: red;
-    border-collapse: 20%;
+    border-collapse: 20%;*/
     /*margin: 5%;*/
     float:right;
     border-radius: 90%;
@@ -65,16 +93,19 @@ h1{
 
 
 .box{
-    background-color: rgb(83, 140, 100) ;
+    /*background-color: rgb(83, 140, 100) ;*/
+    background-color: rgb(226, 163, 110) ;
 
-    display: block;
+    /*display: block;*/
     padding: 2%;
     margin: 3%;
-    overflow: auto;
+    overflow: hidden;
 
     float: center;
     width: 90%;
     height: 70%;
+    /*border-radius: 10%;*/
+    background-color: rgb(83, 140, 100)  ;
     /*background-color: #333;*/
     /*border-width: medium;
     border: solid;
@@ -91,8 +122,7 @@ h1{
     /*background-color: #555; */
 }
 
-.description{
-    background-color: rgb(83, 140, 100) 
+.description{ 
 	display:inline-block;
 	float: right;
 	overflow :hide;
@@ -101,6 +131,8 @@ h1{
     background-size: 100%;
     width: 70%;
     height: 100%;
+    /*border-radius: 18%;*/
+    background-color: rgb(83, 140, 100)  ;
     /*background-color: #444;*/
 
     /*border-width: medium;*/
@@ -113,7 +145,7 @@ h1{
     text-align: right;
     padding:3%;
     background-size: 25%;
-    border-width: 0.5em 0 0 0;
+    border-width: 0.2em 0 0 0;
 }
 
 /*.description :hover{
@@ -155,9 +187,12 @@ h1{
 h2{
     font-size: 180%;
     direction: rtl;
+    background-color: rgb(83, 140, 100)  ;
 }
 
 p{
+    background-color: rgb(83, 140, 100)  ;
+    background-color: 
     font-size: 100%;
     direction: rtl;
     float: right;
