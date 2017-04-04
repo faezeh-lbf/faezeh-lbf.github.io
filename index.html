@@ -4,99 +4,83 @@
     <meta charset="UTF-8">
     <title>معرفی اعضای تیم</title>
     <link rel="stylesheet" href="myStyle.css" type="text/css" />
+
+
+<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('time').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};
+    return i;
+}
+</script>
+
 </head>
-<body>
-<div id = "head">
-<img class="headImg" src="ce (1).jpg" />
+
+
+<body onload="startTime()">
+
+<div class="banner">
+  <div class="slogan">
+    <span>
+      selta
+    </span>
+  </div>  
 </div>
+<div id = "time"></div>
+
 <div Id = "outer">
+    <h1> درباره ما</h1>
 	<div id = "about">
+    
 	<h3>درباره ما</h3>
 		<p>About us:
 
-We are a team that's name is Web Cheese and we are working on a project.
-
-The project porpuse is helping teachers to select best TAs.
-
-We started learning at 27 February 2017.
+ما گروهی از دانشجویان کامپیوتر دانشگاه صنعتی شریف هستیم که از اواخر بهمن ۹۵ کار خود را شروع کردیم.<br>
+هدف ما یادگیری وب به صورت گروهی و در غالب یک پروژه است.<br>پروژه ما سامانه‌‌ایست برا کمک به اساتید در زانتخاب تی‌ای
 </p>
-                <p>
-About us:
-
-We are a team that's name is Web Cheese and we are working on a project.
-
-The project porpuse is helping teachers to select best TAs.
-
-We started learning at 27 February 2017.
-</p>
-About us:
-
-We are a team that's name is Web Cheese and we are working on a project.
-
-The project porpuse is helping teachers to select best TAs.
-
-We started learning at 27 February 2017.
-</p>
-                <p>
-About us:
-
-We are a team that's name is Web Cheese and we are working on a project.
-
-The project porpuse is helping teachers to select best TAs.
-
-We started learning at 27 February 2017.
 </p>
 </div>
 
-    <h1 >اعضای تیم</h1>
-    
-        
-   
+
     <div id = "boxes">
+    <h1> لیدر گروه</h1>
     	 <div  class = "box" >
-       <h3>لیدر</h3>  
       <img src="pooya.JPG" class = "profImg" >
       <div class = "description">
         <h2>پویا مصدق</h2>
+        <p>.</p>
+        <p>......<br></p>
+        <p>......<br></p>
+        <p>......<br></p>
         <p>......</p>
         <p>......</p>
-        <p>......</p>
-        <p>......</p>
-        <p>......</p>
-        <p>......</p>
-        <p>......</p>
-        <p>......</p>
+        <p>......<br></p>
+        <p>......<br></p>
       </div>
 
     </div>
 
+    <h1>اعضای تیم</h1>
         <div class = "box">
         
             <img src="hamid.JPG" class = "profImg"/>
 
             <div class = "description">
                 <h2>حمید هاشمی</h2>
-                
-                <p>ورودی ۹۴ آی‌تی شریف</p>
+                <p>آی‌تی شریف</p>
+                <p>ورودی ۹۴ </p>
                 <p>...</p>
-                <p>...
-About us:
-
-We are a team that's name is Web Cheese and we are working on a project.
-
-The project porpuse is helping teachers to select best TAs.
-
-We started learning at 27 February 2017.
-</p>
-                <p>
-About us:
-
-We are a team that's name is Web Cheese and we are working on a project.
-
-The project porpuse is helping teachers to select best TAs.
-
-We started learning at 27 February 2017.
-</p>
+                <p>...<br></p>
             </div>
 
         </div>
@@ -107,15 +91,14 @@ We started learning at 27 February 2017.
             <img src="faeze.JPG" class = "profImg"/>
             <div class =  "description">
                   <h2>فائزه لباف</h2>
-                <p>...</p>
+                <p> آی‌تی شریف</p>
+                <p>ورودی ۹۴</p>
                 <p>...</p>
                 <p>...</p>
                 <p>...</p>
 
             </div>
-
         </div>
-
 
         
         <div class = "box">
