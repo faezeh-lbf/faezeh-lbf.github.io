@@ -1,62 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="rtl" lang="fa">
 <head>
-    <meta charset="UTF-8">
-    <title>معرفی اعضای تیم</title>
-    <link rel="stylesheet" href="myStyle.css" type="text/css" />
+    <link rel="stylesheet" href="mystyle.css" type="text/css" />
+    <link rel="stylesheet" href="myStyle.css" type="text/javascript" />
 
-
-<script>
-function startTime() {
-    var today = new Date();
-    var h = today.getHours();
-    var m = today.getMinutes();
-    var s = today.getSeconds();
-    m = checkTime(m);
-    s = checkTime(s);
-    document.getElementById('time').innerHTML =
-    h + ":" + m + ":" + s;
-    var t = setTimeout(startTime, 500);
-}
-function checkTime(i) {
-    if (i < 10) {i = "0" + i};
-    return i;
-}
-</script>
-
+    <title>selTA درباره ما</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-
-
-<body onload="startTime()">
-
-<div class="banner">
-  <div class="slogan">
-    <span>
-      selta
-    </span>
-  </div>  
+<body >
+<div class="jumbotron" >
+  <h1>selTA</h1>
+  <p>a place for selecting the bast TA.</p>
 </div>
-<div id = "time"></div>
-
-<div Id = "outer">
-    <h1> درباره ما</h1>
-	<div id = "about">
-    
-	<h3>درباره ما</h3>
-		<p>About us:
-
-ما گروهی از دانشجویان کامپیوتر دانشگاه صنعتی شریف هستیم که از اواخر بهمن ۹۵ کار خود را شروع کردیم.<br>
-هدف ما یادگیری وب به صورت گروهی و در غالب یک پروژه است.<br>پروژه ما سامانه‌‌ایست برا کمک به اساتید در زانتخاب تی‌ای
-</p>
-</p>
-</div>
+  <div class="all">
+    <ul class="nav nav-tabs">
+      <li ><a href="#">تماس با ما</a></li>
+      <li class="active"><a href="#">درباره ما</a></li>
+      <li><a href="#">خانه</a></li>
+    </ul>
+    <br>
 
 
-    <div id = "boxes">
-    <h1> لیدر گروه</h1>
-    	 <div  class = "box" >
-      <img src="pooya.JPG" class = "profImg" >
-      <div class = "description">
+         <div class = "container ">
+      <img src="pooya.JPG" class = "img-circle" >
+      <div class="disc">
         <h2>پویا مصدق</h2>
         <p>.</p>
         <p>......<br></p>
@@ -70,121 +41,73 @@ function checkTime(i) {
 
     </div>
 
-    <h1>اعضای تیم</h1>
-        <div class = "box">
-        
-            <img src="hamid.JPG" class = "profImg"/>
-
-            <div class = "description">
-                <h2>حمید هاشمی</h2>
-                <p>آی‌تی شریف</p>
-                <p>ورودی ۹۴ </p>
-                <p>...</p>
-                <p>...<br></p>
-            </div>
-
-        </div>
-
-
-        <div class = "box">
-        
-            <img src="faeze.JPG" class = "profImg"/>
-            <div class =  "description">
-                  <h2>فائزه لباف</h2>
-                <p> آی‌تی شریف</p>
-                <p>ورودی ۹۴</p>
-                <p>...</p>
-                <p>...</p>
-                <p>...</p>
-
-            </div>
-        </div>
-
-        
-        <div class = "box">
-            <img src="parsa.jpg" class = "profImg"/>
-            <div class =  "description">
-                  <h2>سید پارسا</h2>
-                <p>...</p>
-                <p>...</p>
-                <p>...</p>
-                <p>...</p>
-
-            </div>
-
-        </div>
-
-
-        <div class = "box">
-            <img src="hossein.JPG" class = "profImg"/>
-            <div class =  "description">
-                  <h2>حسین</h2>
-                <p>...</p>
-                <p>...</p>
-                <p>...</p>
-                <p>...</p>
-
-            </div>
-
-        </div>
-
-
-        <div class = "box">
-            <img src="mahdi.JPG" class = "profImg"/>
-            <div class =  "description">
-                  <h2>مهدی حسن‌زاده</h2>
-                <p>...</p>
-                <p>...</p>
-                <p>...</p>
-                <p>...</p>
-
-            </div>
-
-        </div>
-
-
-        <div class = "box">
-            <img src="mahdigh.JPG" class = "profImg"/>
-            <div class =  "description">
-                  <h2>مهدی قربانی</h2>
-                <p>...</p>
-                <p>...</p>
-                <p>...</p>
-                <p>...</p>
-
-            </div>
-
-        </div>
-
-
-        <div class = "box">
-            <img src="ali.JPG" class = "profImg"/>
-            <div class =  "description">
-                  <h2>علی احمدی</h2>
-                <p>...</p>
-                <p>...</p>
-                <p>...</p>
-                <p>...</p>
-
-            </div>
-
-        </div>
-
-
-        <div class = "box">
-            <img src="reza.JPG" class = "profImg"/>
-            <div class =  "description">
-                  <h2>رضا زینی</h2>
-                <p>...</p>
-                <p>...</p>
-                <p>...</p>
-                <p>...</p>
-
-            </div>
-
-        </div>
+        <div class = "container  ">
+      <img src="faezeh_labbaf.jpg" class = "img-circle r" >
+      <div class = "disc">
+        <h2>فائزه لباف</h2>
+        <p>.</p>
+        <p>......<br></p>
+        <p>......<br></p>
+        <p>......<br></p>
+        <p>......</p>
+        <p>......</p>
+        <p>......<br></p>
+        <p>......<br></p>
+      </div>
     </div>
-</div>
+
+        <div class = "container ">
+      <img src="seyedparsa_mirtaheri.jpg" class = "img-circle " >
+      <div class = "disc">
+        <h2>سید پارسا میرطاهری</h2>
+        <p>.</p>
+        <p>......<br></p>
+        <p>......<br></p>
+        <p>......<br></p>
+        <p>......</p>
+        <p>......</p>
+        <p>......<br></p>
+        <p>......<br></p>
+      </div>
+
+    </div>
+
+
+         <div class = "container ">
+      <img src="mahdi_hasanzadeh.jpg" class = "img-circle r" >
+      <div class = "disc">
+        <h2>مهدی حسن‌زاده</h2>
+        <p>.</p>
+        <p>......<br></p>
+        <p>......<br></p>
+        <p>......<br></p>
+        <p>......</p>
+        <p>......</p>
+        <p>......<br></p>
+        <p>......<br></p>
+      </div>
+
+    </div>
+
+        <div class = "container ">
+      <img src="reza.JPG" class = "img-circle" >
+      <div class = "disc">
+        <h2>رضا زینی</h2>
+        <p>.</p>
+        <p>......<br></p>
+        <p>......<br></p>
+        <p>......<br></p>
+        <p>......</p>
+        <p>......</p>
+        <p>......<br></p>
+        <p>......<br></p>
+      </div>
+
+    </div>
+      <!-- Speaker 1 -->
+
+    </div>
+
 
 </body>
 </html>
